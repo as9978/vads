@@ -23,8 +23,8 @@ interface BannerProps {
 }
 
 const Banner = ({
-  width,
-  height,
+  width = 320,
+  height = 320,
   containerProps,
   containerStyles,
   textStyles,

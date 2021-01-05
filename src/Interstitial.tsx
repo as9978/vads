@@ -35,10 +35,10 @@ interface InterstitialProps {
 
 const Interstitial = ({
   variant = "IMAGE",
-  width,
-  height,
-  imageWidth: iwidth,
-  imageHeight: iheight,
+  width = 320,
+  height = 320,
+  imageWidth: iwidth = 320,
+  imageHeight: iheight = 320,
   top,
   bottom,
   left,
